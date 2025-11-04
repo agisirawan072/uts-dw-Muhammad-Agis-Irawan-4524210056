@@ -4,7 +4,7 @@
 
 Nama Lengkap: Muhammad Agis Irawan
 
-NIM: (isi dengan NIM kamu)
+NIM: 4524210056
 
 Topik Generator yang Dipilih: Generator Kartu Pemain Bola
 
