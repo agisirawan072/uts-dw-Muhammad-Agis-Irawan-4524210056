@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartu Pemain Bola</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kartu Pemain Bola</h1>
+    </header>
+
+    <main>
+      <form id="control-panel">
+        <fieldset>
+          <legend>Data Pemain Bola</legend>
+
+          <label for="nama">Nama Pemain:</label>
+          <input type="text" id="nama" placeholder="Masukkan nama pemain..." required/>
+
+          <label for="posisi">Posisi:</label>
+          <input type="text" id="posisi" placeholder="Contoh: Striker, Kiper..." required/>
+
+          <label for="tim">Nama Tim:</label>
+          <input type="text" id="tim" placeholder="Masukkan nama tim..." required/>
+
+          <label for="foto">URL Foto Pemain:</label>
+          <input type="text" id="foto" placeholder="Tempelkan URL foto pemain"/>
+
+          <label for="deskripsi">Deskripsi Singkat:</label>
+          <textarea id="deskripsi"rows="3"placeholder="Tuliskan deskripsi singkat pemain...">
+          </textarea>
+        </fieldset>
+      </form>
+
+      <section id="preview-area">
+        <h2>Kartu Pemain</h2>
+        <article class="card"> 
+          <img id="preview-foto" src="" alt="Foto pemain bola" /> 
+          <h3 id="preview-nama">Nama Pemain</h3>
+          <p id="preview-posisi">Posisi: -</p>
+          <p id="preview-tim">Tim: -</p>
+          <p id="preview-deskripsi">Deskripsi pemain akan muncul di sini...</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Card Player Football By Muhammad Agis Irawan</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
